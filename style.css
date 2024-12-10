@@ -218,6 +218,7 @@ body {
     margin-bottom: 15px;
 }
 
+
 .services-1 h3 {
     color: #eaccb3;
     font-size: 18px;
@@ -234,12 +235,11 @@ body {
     background-color: #e1e2e6;
 }
 
-.general-2 {
-    background-image: url(images/coffe-1.jpg);
-    background-position: center  center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
+.map-box {
+   position: relative;
+   width: 600px;
+   height: 500px;
+   background-color: #fff;
 }
 
 .general-3 {
@@ -312,7 +312,7 @@ p {
     margin-bottom: 15px;
 }
 
-@media(max-width:2000px) {
+@media(max-width:999px) {
     .Logo {
         width: 25%;
         height: 35%;
@@ -405,7 +405,7 @@ p {
         text-align: center;
     }
 
-    .general-2, .general-3 {
+    .map-box, .general-3 {
         display: none;
     } 
 
